@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    background-color: #a1a1aa;
+    display: flex;
+}
+
+.para {
+    font-weight: normal;
+    font-size: 1em;
+}
+
+.nav {
+    background-color: #2563eb;
+    color: #e4e4e7;
+}
+
+.nav button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #e4e4e7;
+}
+
+.nav button:hover {
+    border-bottom: 5px solid #2563eb;
+}
+
+.spacing {
+    margin: 12px 25px 50px 25px;
+}
+
+.dashbord {
+    display: flex;
+    padding-right: 3rem;
+}
+
+.dashbord img {
+    width: 100%;
+    height: auto;
+    max-width: 11em;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    max-width: 1.6em;
+}
+
+h3, h1 {
+    margin: 0px 12px;
+}
+
+.center div {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.end div {
+    display: flex;
+    margin: 20px 0px;
+}
+
+.main {
+    width: 100%;
+    background-color: #e4e4e7;
+}
+
+.first {
+    border-bottom: 4px solid #00000075;
+}
+
+.upper {
+    display: flex;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input img {
+    margin-right: 0.6em;
+}
+
+input {
+    width: 36em;
+    font-size: 1em;
+    border-radius: 1rem;
+    border: none;
+    background-color: #a1a1aa;
+    padding: 0.3em 1em;
+}
+
+.logo {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    margin: 0em 1em;
+}
+
+.user_logo {
+    max-width: 3em;
+    border-radius: 2em;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 1em;
+}
+
+.user_name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_name div {
+    padding-right: 1.5rem;
+}
+
+.user_name img {
+    max-width: 5em;
+    border-radius: 3rem;
+}
+
+.lower_case {
+    font-size: 1em;
+}
+
+.btn {
+    margin: 2em;
+    padding: 0.7em 2.8em;
+    border-radius: 1.5em;
+    border: none;
+    background-color: #2563eb;
+    font-weight: bold;
+    color: #e4e4e7;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
+
+.second {
+    background-color: #a1a1aa;
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    padding: 0em 1em;
+    font-size: 2em;
+}
+
+.left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.card {
+    border-left: 8px solid orange;
+    border-right: 4px solid #00000075;
+    border-bottom: 4px solid #00000075;
+    border-radius: 9px;
+    background-color: #e4e4e7;
+    margin: 1.2em;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.savecontainer {
+    display: flex;
+    justify-content: flex-end;
+    gap: 2em;
+}
+
+.savecontainer button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.marginpadding {
+    padding: 0em;
+    margin-bottom: 0.67em;
+}
+
+.announcement div {
+    background-color: #e4e4e7;
+    border-radius: 9px;
+    padding: 1em;
+}
+
+.announcementCard {
+    padding: 0.5em;
+}
+
+.announcementPara {
+    font-size: 1.2em;
+}
+
+.trendingCard {
+    display: flex;
+    padding: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending div {
+    background-color: #e4e4e7;
+    border-radius: 9px;
+    margin: 0em 0.4em;
+}
+
+.trendingCard img {
+    max-width: 5em;
+    border-radius: 2em;
+}
